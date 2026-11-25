@@ -1,0 +1,19 @@
+# Dépendances (réinstallées avec npm install)
+node_modules/
+
+# Fichiers générés (Netlify reconstruit le site)
+dist/
+.netlify/
+*.log
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
